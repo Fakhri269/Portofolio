@@ -16,14 +16,7 @@ const About = () => {
         <div className="about-grid">
           <div className="about-bio">
             <p>
-              Halo! Saya {personalInfo.name}, seorang kreator yang berfokus pada pengembangan 
-              pengalaman web yang minimalis namun berkinerja tinggi. 
-              Saat ini saya menempuh pendidikan di {personalInfo.school}, Bogor.
-            </p>
-            <p style={{ marginTop: '20px' }}>
-              Pendekatan saya dalam pengembangan selalu mengutamakan kode yang bersih, 
-              antarmuka pengguna yang intuitif, dan sistem desain yang terukur. 
-              Saya terus mengeksplorasi teknologi baru untuk memberikan produk digital yang kokoh.
+            Saya, Fakhri Sidqi Nuriadi, adalah siswa SMK Negeri 1 Ciomas Bogor jurusan Pengembangan Perangkat Lunak dan Gim (PPLG). Saya memiliki minat di bidang pemrograman, teknologi informasi, dan administrasi, serta berkomitmen untuk terus mengembangkan keterampilan. Saya disiplin, bertanggung jawab, dan mampu bekerja secara individu maupun dalam tim.
             </p>
           </div>
 

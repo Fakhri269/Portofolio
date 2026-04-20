@@ -115,11 +115,11 @@ const PortfolioShowcase = () => {
                     onClick={() => handleItemClick(item)}
                     style={{ cursor: 'pointer' }}
                   >
-                    {item.image && (
-                      <div className="card-image-wrap">
-                        <img src={item.image} alt={item.title} className="card-image" referrerPolicy="no-referrer" />
-                      </div>
-                    )}
+                   {item.images && item.images.length > 0 && (
+  <div className="card-image-wrap">
+    <img src={item.images[0]} alt={item.title} className="card-image" referrerPolicy="no-referrer" />
+  </div>
+)}
                     <div className="card-content">
                       <h3 className="card-title">{item.title}</h3>
                       <p className="card-desc">{item.description}</p>

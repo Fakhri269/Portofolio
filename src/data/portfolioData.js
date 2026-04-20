@@ -3,7 +3,7 @@ export const personalInfo = {
   title: "Web Developer & Designer",
   school: "SMKN 1 Ciomas Bogor",
   description:
-    "A dedicated student at SMKN 1 Ciomas Bogor with a strong passion for web development and digital design. Currently focused on building clean, functional, and user-centric applications using modern technologies.",
+    "Saya siap untuk belajar dan berkembang.",
   email: "fakhrisidqin@gmail.com",
   phone: "+62 812-3456-7890",
   location: "Bogor, West Java",
@@ -16,35 +16,50 @@ export const personalInfo = {
 export const projects = [
   {
     id: 1,
-    title: "SiPiket — Digital Presence",
-    description: "A comprehensive student picket management system featuring digital attendance, location tracking, and daily reporting integrated with Firebase.",
-    tech: ["React", "Firebase", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1000",
-    link: "https://sipiket.vercel.app",
+    title: "Absensi Skanic",
+    description: "Sistem absensi digital berbasis barcode yang dikembangkan untuk SMKN 1 Ciomas, memungkinkan pencatatan keterlambatan siswa secara otomatis dan real-time. Dengan hanya melakukan scan barcode, data kehadiran langsung tersimpan ke sistem, lengkap dengan waktu dan status keterlambatan. Solusi ini meningkatkan efisiensi, akurasi data, serta memudahkan pihak sekolah dalam monitoring dan pelaporan.",
+    tech: ["React", "Firebase", "Javascript", "Html", "Css", "Firestore"],
+    images: [
+      "/AbsensiSkanic1.png",
+      "/AbsensiSkanic2.png",
+      "/AbsensiSkanic3.png",
+    ],
+    link: "https://absensiskanic-b4895.web.app",
   },
   {
     id: 2,
-    title: "Admin Dashboard",
-    description: "Full-stack admin dashboard supporting real-time statistics, schedule management, and notification systems for educational supervisors.",
-    tech: ["React", "Node.js", "Chart.js"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000",
-    link: "https://admin-demo.vercel.app",
+    title: "JB Fakhri",
+    description: "Website jual beli akun game by Fakhri merupakan platform digital yang menyediakan berbagai pilihan akun game siap pakai untuk dibeli. Pengguna dapat dengan mudah memilih akun berdasarkan spesifikasi, harga, dan kebutuhan mereka, dengan tampilan yang sederhana dan sistem yang efisien untuk mempercepat proses pembelian.",
+    tech: ["React", "Vite", "Firebase", "Midtrans"],
+    images: [
+      "/JbFakhri2.png",
+      "/JbFakhri3.png",
+      "/JbFakhri4.png",
+    ],
+    link: "https://jbfakhri-a1044.web.app/",
   },
   {
     id: 3,
-    title: "Minimalist Portfolio",
-    description: "A professional, dark-themed personal portfolio showcasing projects and skills with smooth tab transitions and responsive design.",
-    tech: ["React", "Vite", "Framer Motion"],
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&q=80&w=1000",
-    link: "https://portfolio-demo.vercel.app",
+    title: "IsChat",
+    description: "IChat adalah aplikasi pesan instan berbasis web yang dirancang untuk komunikasi cepat dan efisien. Dengan sistem real-time, pengguna dapat bertukar pesan secara langsung dengan pengalaman yang ringan dan responsif.",
+    tech: ["React", "Firebase"],
+    images: [
+      "/IsChat1.png",
+      "/IsChat2.png",
+    ],
+    link: "https://ischat-3b8e5.web.app/",
   },
   {
     id: 4,
-    title: "E-Commerce UI/UX",
-    description: "Modern UI/UX design for an e-commerce platform focusing on intuitive navigation, clean aesthetics, and seamless checkout flows.",
-    tech: ["Figma", "Design System"],
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000",
-    link: "https://figma.com/@sample-ecommerce",
+    title: "Nightprobe Security",
+    description: "NightProbe Security adalah tools keamanan web yang memungkinkan pengguna melakukan scanning hanya dengan menempelkan link website. Sistem akan menganalisis potensi celah keamanan dan menampilkan hasil secara cepat dan praktis.",
+    tech: ["Django", "CSS", "Python", "Html"],
+    images: [
+      "/NightProbe1.png",
+      "/NightProbe2.png",
+      "/NightProbe3.png",
+    ],
+    link: "https://github.com/Fakhri269/Nightprobe-Security.git",
   },
 ];
 
@@ -53,7 +68,6 @@ export const certificates = [
     id: 1,
     title: "Introduction to Information Security",
     issuer: "Cyber Academy Indonesia",
-    date: "2024",
     image: "https://drive.google.com/thumbnail?id=1YQ66n2XfgrkIDLt3-dS8UIKWF74MXFB-&sz=w1000",
     link: "https://drive.google.com/file/d/1YQ66n2XfgrkIDLt3-dS8UIKWF74MXFB-/view"
   },
@@ -61,7 +75,6 @@ export const certificates = [
     id: 2,
     title: "Basic CyberSecurity",
     issuer: "Codepolitan",
-    date: "2024",
     image: "https://drive.google.com/thumbnail?id=1kci2uqCwBS69PqSXMeCelZethWkaBO_B&sz=w1000",
     link: "https://drive.google.com/file/d/1kci2uqCwBS69PqSXMeCelZethWkaBO_B/view"
   },
@@ -69,7 +82,6 @@ export const certificates = [
     id: 3,
     title: "Classical Cryptography for Beginner",
     issuer: "Cyber Academy Indonesia",
-    date: "2024",
     image: "https://drive.google.com/thumbnail?id=1IyxslsCoC04GZpnsIi7RZDZo8UWKVqdn&sz=w1000",
     link: "https://drive.google.com/file/d/1IyxslsCoC04GZpnsIi7RZDZo8UWKVqdn/view"
   },
@@ -77,7 +89,6 @@ export const certificates = [
     id: 4,
     title: "Belajar Dasar Visualisasi Data",
     issuer: "Dicoding Indonesia",
-    date: "2024",
     image: "https://drive.google.com/thumbnail?id=18x7nIYnSHUssN1_wqzYR5UJaO-2KfYAU&sz=w1000",
     link: "https://drive.google.com/file/d/18x7nIYnSHUssN1_wqzYR5UJaO-2KfYAU/view"
   },
@@ -85,7 +96,6 @@ export const certificates = [
     id: 5,
     title: "Indonesia Game Week - Game Jam",
     issuer: "Gamecomm Indonesia",
-    date: "2024",
     image: "https://drive.google.com/thumbnail?id=1DS-rBDLnygNgjQtww6I8z5m6gYG3Kuk-&sz=w1000",
     link: "https://drive.google.com/file/d/1DS-rBDLnygNgjQtww6I8z5m6gYG3Kuk-/view"
   },
@@ -93,7 +103,6 @@ export const certificates = [
     id: 6,
     title: "Memulai Pemrograman dengan Python",
     issuer: "Dicoding Indonesia",
-    date: "2024",
     image: "https://drive.google.com/thumbnail?id=18nzZiIks83SAcMIPOJOvhOPp77WTNC0z&sz=w1000",
     link: "https://drive.google.com/file/d/18nzZiIks83SAcMIPOJOvhOPp77WTNC0z/view"
   },
@@ -101,7 +110,6 @@ export const certificates = [
     id: 7,
     title: "Menyala Financial Literacy",
     issuer: "Otoritas Jasa Keuangan",
-    date: "2024",
     image: "https://drive.google.com/thumbnail?id=1GbrEX9WobiliYdz6Qmip_MUe-r2OXbng&sz=w1000",
     link: "https://drive.google.com/file/d/1GbrEX9WobiliYdz6Qmip_MUe-r2OXbng/view"
   },
@@ -109,7 +117,6 @@ export const certificates = [
     id: 8,
     title: "Pengimbasan Master Trainer 2024",
     issuer: "Google Cloud Education",
-    date: "2024",
     image: "https://drive.google.com/thumbnail?id=1lC4tYaNZeidYDkc9xBoW4ey7xi6zZTW3&sz=w1000",
     link: "https://drive.google.com/file/d/1lC4tYaNZeidYDkc9xBoW4ey7xi6zZTW3/view"
   },
@@ -117,7 +124,6 @@ export const certificates = [
     id: 9,
     title: "Belajar Dasar AI",
     issuer: "Dicoding Indonesia",
-    date: "2024",
     image: "https://drive.google.com/thumbnail?id=12Pi5uU-OiKeWvSGHCL6EdBH4KY0-_gCp&sz=w1000",
     link: "https://drive.google.com/file/d/12Pi5uU-OiKeWvSGHCL6EdBH4KY0-_gCp/view"
   },
