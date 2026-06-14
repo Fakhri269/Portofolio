@@ -16,7 +16,7 @@ const About = () => {
         <div className="about-grid">
           <div className="about-bio">
             <p>
-            Saya, Fakhri Sidqi Nuriadi, adalah siswa SMK Negeri 1 Ciomas Bogor jurusan Pengembangan Perangkat Lunak dan Gim (PPLG). Saya memiliki minat di bidang pemrograman, teknologi informasi, dan administrasi, serta berkomitmen untuk terus mengembangkan keterampilan. Saya disiplin, bertanggung jawab, dan mampu bekerja secara individu maupun dalam tim.
+            Saya, Fakhri Sidqi Nuriadi, adalah siswa SMK Negeri 1 Ciomas Bogor jurusan Pengembangan Perangkat Lunak dan Gim (PPLG). Saya memiliki minat di bidang pemrograman, teknologi informasi, dan administrasi, serta berkomitmen untuk terus mengembangkan keterampilan. Saya mampu bekerja secara individu maupun dalam tim.
             </p>
           </div>
 

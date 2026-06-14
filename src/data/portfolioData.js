@@ -5,12 +5,12 @@ export const personalInfo = {
   description:
     "Saya siap untuk belajar dan berkembang.",
   email: "fakhrisidqin@gmail.com",
-  phone: "+62 812-3456-7890",
+  phone: "+62 822-9936-4511",
   location: "Bogor, West Java",
-  instagram: "https://instagram.com/fakhrisidqi",
-  tiktok: "https://tiktok.com/@fakhrisidqi",
-  linkedin: "https://linkedin.com/in/fakhrisidqi",
-  github: "https://github.com/fakhrisidqi",
+  instagram: "https://instagram.com/fakhriisni",
+  tiktok: "https://tiktok.com/@fanatech.id",
+  linkedin: "https://id.linkedin.com/in/fakhri-sidqi-nuriadi-997982382/in",
+  github: "https://github.com/fakhri269",
 };
 
 export const projects = [
@@ -30,7 +30,7 @@ export const projects = [
     id: 2,
     title: "JB Fakhri",
     description: "Website jual beli akun game by Fakhri merupakan platform digital yang menyediakan berbagai pilihan akun game siap pakai untuk dibeli. Pengguna dapat dengan mudah memilih akun berdasarkan spesifikasi, harga, dan kebutuhan mereka, dengan tampilan yang sederhana dan sistem yang efisien untuk mempercepat proses pembelian.",
-    tech: ["React", "Vite", "Firebase", "Midtrans"],
+    tech: ["React", "Vite", "Firebase", "Vercel", "Midtrans"],
     images: [
       "/JbFakhri2.png",
       "/JbFakhri3.png",
@@ -60,6 +60,56 @@ export const projects = [
       "/NightProbe3.png",
     ],
     link: "https://github.com/Fakhri269/Nightprobe-Security.git",
+  },
+
+ {
+  id: 5,
+  title: "Jakarta Dream",
+  description: "Jakarta Dream adalah game edukatif yang memperkenalkan budaya Jakarta melalui elemen makanan khas dan transportasi, sehingga pemain dapat mengenal kehidupan kota Jakarta dengan cara yang interaktif dan menyenangkan.",
+  tech: ["Gdevelop"],
+  images: [
+"/JakartaDream1.png",
+"/JakartaDream2.png",
+"/JakartaDream3.png",
+  ],
+  link: "https://skanic.itch.io/jakarta-dream",
+   },
+
+   {
+    id: 6,
+    title: "Flapy Bird 3d",
+    description: "Flappy Bird 3D (PC) adalah game kasual berbasis skill yang dimainkan di komputer, di mana pemain mengendalikan burung melewati rintangan dalam tampilan 3D menggunakan kontrol keyboard atau mouse, dengan fokus pada ketepatan timing dan refleks untuk meraih skor tertinggi.",
+    tech: ["Unity", "C#"],
+    images: [
+      "/FlapyBird1.png",
+    ],
+    link: "https://fakhriganteng.itch.io/flappybird3d",
+  },
+
+  {
+    id: 7,
+    title: "GreenFinance",
+    description: "GreenFinance adalah aplikasi pencatatan keuangan bendahara yang membantu mengelola pemasukan, pengeluaran, dan saldo secara mudah, cepat, dan akurat.",
+    tech: ["React", "Firebase"],
+    images: [
+      "/GreenFinance1.png",
+      "/GreenFinance2.png",
+      "/GreenFinance3.png",
+    ],
+    link: "https://greenfinance-7dda6.web.app/",
+  },
+
+  {
+    id: 8,
+    title: "Token Forge",
+    description: "Token Forge adalah aplikasi web ringan untuk mendekripsi token terenkripsi (Base64 + AES-CBC) menjadi format JSON yang rapi dan mudah dibaca. Aplikasi ini berjalan sepenuhnya di browser sehingga 100% aman (data tidak dikirim ke server), serta dilengkapi fitur untuk mengatur kunci rahasia (AES Key & IV), meng-copy, dan mendownload hasil dekripsi secara instan.",
+    tech: ["React", "Firebase"],
+    images: [
+      "/TokenForge1.png",
+      "/TokenForge2.png",
+      "/TokenForge3.png",
+    ],
+    link: "https://tokenforge-v1.web.app/",
   },
 ];
 
@@ -127,6 +177,8 @@ export const certificates = [
     image: "https://drive.google.com/thumbnail?id=12Pi5uU-OiKeWvSGHCL6EdBH4KY0-_gCp&sz=w1000",
     link: "https://drive.google.com/file/d/12Pi5uU-OiKeWvSGHCL6EdBH4KY0-_gCp/view"
   },
+
+  
 ];
 
 export const skills = [
@@ -140,7 +192,7 @@ export const skills = [
   { name: "Firebase", id: "firebase" },
   { name: "GitHub", id: "github" },
   { name: "Figma", id: "figma" },
-  { name: "Canva", id: "canva" },
+  { name: "Canva", id: "canva" }, 
   { name: "CapCut", id: "capcut" },
   { name: "PixelLab", id: "pixellab" },
   { name: "Unity", id: "unity" },
