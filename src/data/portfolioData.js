@@ -111,6 +111,21 @@ export const projects = [
     ],
     link: "https://tokenforge-v1.web.app/",
   },
+
+  {
+    id: 9,
+    title: "Fakhri Cofee",
+    description: "Web Kasir Fakhri Coffee adalah aplikasi kasir berbasis web yang digunakan untuk mengelola transaksi penjualan, data menu, dan laporan penjualan secara cepat dan efisien. Sistem ini membantu mempermudah proses pelayanan pelanggan serta mendukung pengelolaan operasional kedai kopi secara lebih modern dan terorganisir.",
+    tech: ["React", "Firebase"],
+    images: [
+      "/fakhricofee1.png",
+      "/fakhricofee2.png",
+      "/fakhricofee3.png",
+      "/fakhricofee4.png"
+      
+    ],
+    link: "https://fakhricofee-87903.web.app/",
+  },
 ];
 
 export const certificates = [
